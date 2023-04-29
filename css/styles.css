@@ -484,6 +484,65 @@ body {
 
 .socials-icon {}
 
+
+/**
+  |============================
+  | Customer section
+  |============================
+*/
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: ;
+}
+
+.customer-title {
+    /* font setting */
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* color */
+    color: var(--color-navy-blue);
+    /* flex-box */
+    margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.customers-list-item {}
+
+.customers-link {
+    display: flex;
+    width: 168px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-light-slate);
+    border-radius: 4px;
+    color: var(--color-light-slate);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    color: var(--color-ocean);
+    border: 1px solid var(--color-ocean);
+    border-radius: 4px;
+}
+
+.customer-icon {
+    fill: currentColor;
+}
+
+
 /**
   |============================
   | FOOTER SECTION
